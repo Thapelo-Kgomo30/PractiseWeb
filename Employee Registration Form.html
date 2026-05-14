@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+  <!-- Icon and Heading side by side -->
+  <img src="https://cdn-icons-png.flaticon.com/512/6069/6069202.png"
+       alt="Employee Icon" width="50" height="50">
+  <h2 style="display:inline; color:red;">Employee Registration Form</h2>
+</center>
+
+<!-- Radio Buttons -->
+<center>
+<table>
+  <tr>
+    <td>
+      <label><input type="radio" name="title" value=Mr checked> Mr</label>
+      <label><input type="radio" name="title" value="Mrs"> Mrs</label>
+      <label><input type="radio" name="title" value="Ms."> Ms</label>
+    </td>
+  </tr>
+</table>
+</center>
+
+<!-- The form starts here -->
+<center>
+<form>
+  <table>
+    <tr>
+      <!-- Label cell -->
+      <td style="padding-right:20px;">
+        <b><label for="First name">First Name</label></b>
+      </td>
+      <td>
+        <input type="text" id="First Name" name="First Name" maxlength="40" placeholder="First Name">
+      </td>
+    </tr>
+<tr>
+      <!-- Label cell -->
+      <td style="padding-right:20px;">
+        <b><label for="Last Name">Last Name</label></b>
+      </td>
+      <td>
+        <input type="text" id="Last Name" name="Last Name" maxlength="40" placeholder="Last Name">
+      </td>
+</tr>
+      <!-- Label cell -->
+      <td style="padding-right:20px;">
+        <b><label for="">Mail Address1</label></b>
+      </td>
+      <td>
+        <input type="text" id="Mail Address1" name="Mail Address1" maxlength="40">
+      </td>
+    <tr>
+      <!-- Label cell -->
+      <td style="padding-right:20px;">
+        <b><label for="Mail Address2">Mail Address2</label></b>
+      </td>
+      <td>
+        <input type="text" id="Mail Address2" name="Mail Address2" maxlength="40">
+      </td>
+<tr>
+      <!-- Label cell -->
+      <td style="padding-right:20px;">
+        <b><label for="City">City</label></b>
+      </td>
+      <td>
+        <input type="text" id="City" name="City" maxlength="40">
+      </td>
+   <tr>
+      <!-- Label cell -->
+      <td style="padding-right:20px;">
+        <b><label for="State">State</label></b>
+      </td>
+      <td>
+    <select name="State">
+<option value="Qujarat">Qujarat</option>
+</select>
+      </td>
+<tr>
+<td style="padding-right:20px;">
+        <b><label for="Zip">Zip</label></b>
+      </td>
+      <td>
+        <input type="text" id="Zip" name="Zip" maxlength="40">
+      </td>
+<tr>
+<td style="padding-right:20px;">
+        <b><label for="photo">Upload Photo</label></b>
+      </td>
+      <td>
+        <input type="file" id="photo" name="photo">
+      </td>
+<tr>
+<td style="padding-right:20px;">
+        <b><label for="Email">Email</label></b>
+      </td>
+      <td>
+        <input type="text" id="Email" name="Email" maxlength="40">
+      </td>
+<tr>
+<td style="padding-right:20px;">
+        <b><label for="Mobile">Mobile</label></b>
+      </td>
+      <td>
+        <input type="tel" id="Mobile" name="Mobile" value="+91"  maxlength="15">
+      </td>
+ <tr>
+  <td style="padding-right:20px;"><b>Languages Known</b></td>
+  <td><input type="checkbox" name="languages" value=Gujarati checked> Gujarati</td>
+</tr>
+<tr>
+  <td></td>
+  <td><input type="checkbox" name="languages" value=Hindi checked> Hindi</td>
+</tr>
+<tr>
+  <td></td>
+  <td><input type="checkbox" name="languages" value=English checked> English</td>
+</tr>
+<tr>
+  <td></td>
+  <td><input type="checkbox" name="languages" value="Marathi"> Marathi</td>
+</tr>
+
+
+<td style="padding-right:20px;">
+<b><label for="addinfo" >Additional Information</label></b>
+</td>
+
+
+<!--Textarea and buttons-->
+<td style="text-align:left;">
+<textarea id="addinfo" name="addinfo" cols= 20 rows=5 placeholder="optional"></textarea>
+<br/>
+<input type="submit" id="submit" value="Submit">
+<input type="reset" id="reset" value="Reset">
+    </td>
+    </tr>
+  </table>
+</form>
+</center>
+</body>
+</html>
